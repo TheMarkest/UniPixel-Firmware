@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "channel": "beta",
+  "version": "2.2.0-rc.2",
+  "boardId": "uicpal-esp32s3-n16r8",
+  "configSchemaVersion": 8,
+  "size": 1525440,
+  "sha256": "eb0ca72515bbe877342601aef867cb33425eab3929028bac2d991d38aa9c350c",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.2.bin",
+  "publishedAt": "2026-07-21T15:46:19Z",
+  "releaseNotes": "V2.11 signed OTA proof release",
+  "signature": "MEUCIQDgs3cN6gbtEVjGmRzhgSwGJWcFvTYSD7zP1WiaP1WxTgIgFch0LDwF8GjkSuaZZGFXjs5BH0DThNpEleqU8SbnQ2k="
+}
