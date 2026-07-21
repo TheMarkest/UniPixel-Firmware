@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "2.2.0-rc.3",
+  "version": "2.2.0-rc.4",
   "boardId": "uicpal-esp32s3-n16r8",
   "configSchemaVersion": 8,
-  "size": 1519472,
-  "sha256": "b35bed41b097cac9984cb8627f6df28f7fb145b06faa1590fac71b2a0f3dbaee",
-  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.3.bin",
-  "publishedAt": "2026-07-21T23:00:43Z",
-  "releaseNotes": "Open trusted-LAN control and enable external multi-pixel GPIO48 output",
-  "signature": "MEQCICQx45Ueirqb2mOtUaLQjoUMhg3bpLBMeoTytQ7nw3mTAiAGTjTpRbpXYRN326NnRmU0Cuyy0b48t7UHysoEYlgstQ=="
+  "size": 1520608,
+  "sha256": "c35a6b1733747729fe65bb9d72086ed58b754c8cb6cf881678f0774fd10cc65b",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.4.bin",
+  "publishedAt": "2026-07-21T23:41:56Z",
+  "releaseNotes": "Apply pending fixture routing before Live Control playback",
+  "signature": "MEUCIQCUja/JmDJO2aOPsA+2hvQA9gR6dqulznvJE+axBEuTggIgc1TrUwKT3MK7P3W5RaCKW6nGbqm1PODvV1/pXHmT0PQ="
 }
