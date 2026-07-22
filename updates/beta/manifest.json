@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "2.2.0-rc.4",
+  "version": "2.2.0-rc.5",
   "boardId": "uicpal-esp32s3-n16r8",
   "configSchemaVersion": 8,
   "size": 1520608,
-  "sha256": "c35a6b1733747729fe65bb9d72086ed58b754c8cb6cf881678f0774fd10cc65b",
-  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.4.bin",
-  "publishedAt": "2026-07-21T23:41:56Z",
-  "releaseNotes": "Apply pending fixture routing before Live Control playback",
-  "signature": "MEUCIQCUja/JmDJO2aOPsA+2hvQA9gR6dqulznvJE+axBEuTggIgc1TrUwKT3MK7P3W5RaCKW6nGbqm1PODvV1/pXHmT0PQ="
+  "sha256": "446ea5497d78d8abaedace8a69dc6162fb2933b5c0bee0939ab4870754c18400",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.5.bin",
+  "publishedAt": "2026-07-22T00:04:22Z",
+  "releaseNotes": "Apply fixture routing before Live Control and suspend effects during OTA",
+  "signature": "MEQCICPdxNOGhRnwwnaeycPfq/NoYkzmbooO6xPK75cYAFJBAiAMYyZ3wTbEFmbt+DL3NyvKf/O+2f8dJGFpIO+GlssCSg=="
 }
