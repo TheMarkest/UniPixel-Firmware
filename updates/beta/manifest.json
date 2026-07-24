@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "2.2.0-rc.6",
+  "version": "2.2.0-rc.7",
   "boardId": "uicpal-esp32s3-n16r8",
   "configSchemaVersion": 8,
   "size": 1532848,
-  "sha256": "65682b02e16bc6ada3432ebdd00f28dc52e963c7c0988bf6c7b5ec113f786ed0",
-  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.6.bin",
-  "publishedAt": "2026-07-23T06:53:51Z",
-  "releaseNotes": "Add managed station Wi-Fi profiles",
-  "signature": "MEYCIQD5F8IOyUaFiKoPbWW3weH9RSvIgzTwBLNW4yYANVHtCAIhAL49kif7XWA8Vs0mS0KeO2KdpAkgYBXyg9OGYNeUWuuU"
+  "sha256": "cc2190702b5b33019fefada3d563e069c01c226db41482d786a9c315770f728c",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.7.bin",
+  "publishedAt": "2026-07-24T04:21:49Z",
+  "releaseNotes": "Fix Live Control handoff from fixture commissioning tests",
+  "signature": "MEQCIDnLGUP+sGYt3hySI8GIDKxWw8KKA61b0ZQSGScJmlTNAiBQ/tTkZVPNn9r9LXaqYFmKChB/G25ZUBasRIGhYbRfdw=="
 }
