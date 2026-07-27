@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "2.2.0-rc.8",
+  "version": "2.2.0-rc.9",
   "boardId": "uicpal-esp32s3-n16r8",
   "configSchemaVersion": 8,
-  "size": 1533344,
-  "sha256": "b20ba6637f88a6ce34f8fb678c4495705837602f4f04cdc511ea8c11452ed701",
-  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.8.bin",
-  "publishedAt": "2026-07-24T09:23:04Z",
-  "releaseNotes": "Poll OTA status through completion and recover clear update UX",
-  "signature": "MEUCIAEXz4KZ3h6c9wVjT7MvCHvjdB3CiSFBTSMPoDzViTpNAiEAh1ANidY3fJ5BJCYn1MxMQudgi924lwtz3Z0ZLcTuRqU="
+  "size": 1533600,
+  "sha256": "fa8afcac2f23006a6e58730fded6ed67d9f0058f51049f66c9e12887505445f8",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.9.bin",
+  "publishedAt": "2026-07-27T06:16:00Z",
+  "releaseNotes": "Add exact WS2815 GRB and RGB-order profiles after two-line hardware diagnosis",
+  "signature": "MEUCIB5cTkXmYl6Pk2z1eaYCWbZ4BXkic79IhGmXbAT84FC3AiEAyX7OsPObIBNAGnpZgupl/9UqX+cAubp+Iup4ihyr0+0="
 }
