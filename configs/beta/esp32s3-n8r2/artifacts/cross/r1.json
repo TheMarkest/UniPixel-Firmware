@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 9,
+  "customProfiles": [],
+  "hardware": {
+    "ports": [
+      {
+        "id": "led0",
+        "backend": "rmt_nrz",
+        "dataPin": 48
+      }
+    ],
+    "transportGroups": [
+      {
+        "id": "rmt0",
+        "backend": "rmt_nrz",
+        "synchronization": "hardware",
+        "requestedFps": 60
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "id": "bus0",
+      "enabled": true,
+      "protocol": "ws2812b",
+      "hardwarePortId": "led0",
+      "transportGroupId": "rmt0",
+      "requestedFps": 60,
+      "transport": {
+        "type": "rmt_nrz",
+        "dataPin": 48
+      },
+      "pixelCount": 1
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "cross-indicator",
+      "name": "Cross",
+      "enabled": true,
+      "pixelCount": 1,
+      "geometry": {
+        "type": "strip",
+        "logicalOffset": 0,
+        "reverse": false
+      },
+      "control": {
+        "mode": "live"
+      },
+      "parts": [
+        {
+          "id": "main",
+          "busId": "bus0",
+          "physicalOffset": 0,
+          "pixelCount": 1,
+          "sampling": {
+            "keep": 1,
+            "period": 1,
+            "phase": 0
+          }
+        }
+      ]
+    }
+  ],
+  "dmx": {
+    "inputEnabled": false,
+    "physicalUniverse": 1,
+    "inputTimeoutMs": 1000,
+    "output": {
+      "mode": "disabled",
+      "fallback": "blackout"
+    }
+  },
+  "show": {
+    "masterDimmer": 45,
+    "blackout": false
+  },
+  "fixtureGroups": [
+    {
+      "id": "cross",
+      "name": "Cross",
+      "fixtureIds": [
+        "cross-indicator"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "cross-glow",
+      "name": "Cross Glow",
+      "fixtureGroupId": "cross",
+      "effect": "pulse",
+      "dimmer": 70,
+      "speed": 22,
+      "primaryColor": {
+        "red": 0,
+        "green": 45000,
+        "blue": 65535,
+        "white": 0,
+        "warmWhite": 0,
+        "coolWhite": 0,
+        "amber": 0
+      },
+      "secondaryColor": {
+        "red": 65535,
+        "green": 0,
+        "blue": 22000,
+        "white": 0,
+        "warmWhite": 0,
+        "coolWhite": 0,
+        "amber": 0
+      }
+    },
+    {
+      "id": "cross-rainbow",
+      "name": "Cross Rainbow",
+      "fixtureGroupId": "cross",
+      "effect": "rainbow",
+      "dimmer": 60,
+      "speed": 28,
+      "primaryColor": {
+        "red": 65535,
+        "green": 65535,
+        "blue": 65535
+      },
+      "secondaryColor": {
+        "red": 0,
+        "green": 0,
+        "blue": 0
+      }
+    },
+    {
+      "id": "cross-blackout",
+      "name": "Cross Blackout",
+      "fixtureGroupId": "cross",
+      "effect": "blackout",
+      "dimmer": 100,
+      "speed": 50,
+      "primaryColor": {
+        "red": 0,
+        "green": 0,
+        "blue": 0
+      },
+      "secondaryColor": {
+        "red": 0,
+        "green": 0,
+        "blue": 0
+      }
+    }
+  ],
+  "autopilot": {
+    "enabled": true,
+    "loop": true,
+    "startupDelayMs": 2000,
+    "fps": 60,
+    "steps": [
+      {
+        "sceneId": "cross-glow",
+        "durationMs": 20000
+      },
+      {
+        "sceneId": "cross-rainbow",
+        "durationMs": 20000
+      }
+    ]
+  }
+}

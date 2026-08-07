@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "channel": "beta",
+  "publishedAt": "2026-08-07T23:47:52Z",
+  "configCount": 1,
+  "assignmentCount": 1,
+  "configs": [
+    {
+      "id": "cross",
+      "revision": 1,
+      "sha256": "b0e3486fd057e09ac7fdb11e06505d05373fb7bd854fabd4f6b7b450dc9d40a7",
+      "url": "https://themarkest.github.io/UniPixel-Firmware/configs/beta/esp32s3-n8r2/artifacts/cross/r1.json"
+    }
+  ]
+}
