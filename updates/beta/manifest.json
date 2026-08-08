@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "2.2.0-rc.15",
+  "version": "2.2.0-rc.16",
   "boardId": "uicpal-esp32s3-n16r8",
   "configSchemaVersion": 9,
-  "size": 1593744,
-  "sha256": "2e620bff319b7ca99bef3a75cfa9608d6815fe3537eefc9d397696f58a2d60c8",
-  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.15.bin",
-  "publishedAt": "2026-08-08T01:48:14Z",
-  "releaseNotes": "V2.15 Cross mapping, autonomous show, Art-Net bot switching, and bounded preview/config persistence",
-  "signature": "MEQCIAg2WelK0WP3VFg/uH2r783IMgX97/fkQla0Zp2oxWieAiABaha9Owx6PL2NyfASGVNl61Miwy2GRrX7PYEvJ5oNeA=="
+  "size": 1593760,
+  "sha256": "346d3d5081c1e29fe9e61b2ea971dc1e3a8f34d56d46ad4aa772e37d0896b5ac",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.16.bin",
+  "publishedAt": "2026-08-08T02:11:34Z",
+  "releaseNotes": "V2.15 Cross remote-config PSRAM stability and smooth 30 FPS installation preset",
+  "signature": "MEUCID5dTruoWH7SDBlpuHnDlv4QfUkt92Bdg9tFRapo29z0AiEAvTod0/aJASeFuWxVRXz868DxFfV5Mo/h7s7u5p3a8zQ="
 }
