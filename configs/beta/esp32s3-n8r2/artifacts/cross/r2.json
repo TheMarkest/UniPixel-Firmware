@@ -6,7 +6,7 @@
       {
         "id": "led0",
         "backend": "rmt_nrz",
-        "dataPin": 48
+        "dataPin": 6
       }
     ],
     "transportGroups": [
@@ -28,17 +28,17 @@
       "requestedFps": 60,
       "transport": {
         "type": "rmt_nrz",
-        "dataPin": 48
+        "dataPin": 6
       },
-      "pixelCount": 1
+      "pixelCount": 176
     }
   ],
   "fixtures": [
     {
-      "id": "cross-indicator",
-      "name": "Cross",
+      "id": "cross-rings",
+      "name": "Cross Rings 11x16",
       "enabled": true,
-      "pixelCount": 1,
+      "pixelCount": 176,
       "geometry": {
         "type": "strip",
         "logicalOffset": 0,
@@ -52,7 +52,7 @@
           "id": "main",
           "busId": "bus0",
           "physicalOffset": 0,
-          "pixelCount": 1,
+          "pixelCount": 176,
           "sampling": {
             "keep": 1,
             "period": 1,
@@ -80,7 +80,7 @@
       "id": "cross",
       "name": "Cross",
       "fixtureIds": [
-        "cross-indicator"
+        "cross-rings"
       ]
     }
   ],
