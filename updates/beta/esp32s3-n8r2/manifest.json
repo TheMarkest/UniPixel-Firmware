@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "2.2.0-rc.17",
+  "version": "2.2.0-rc.18",
   "boardId": "esp32s3-n8r2",
   "configSchemaVersion": 9,
-  "size": 1590096,
-  "sha256": "b748effca4f9e34c681e8917bd714e70b8abca735349855a5f8ae44de8ca58a7",
-  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/esp32s3-n8r2/unipixel-2.2.0-rc.17.bin",
-  "publishedAt": "2026-08-08T02:31:42Z",
-  "releaseNotes": "V2.15 Cross incremental OTA erase watchdog fix",
-  "signature": "MEUCIQDmfCAs7WS0UOiQNtyhIlH/ksG11QPDIPRZB0iPGoaXTgIgbR5VafS7QhtCzF4EFMYtR8sIxXvdE7VeZrSc8OoZ+JE="
+  "size": 1590448,
+  "sha256": "f1a0bca4b3e361902ea61152aec8138b56a35ac7707a5e8dfd0160381e19ed18",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/esp32s3-n8r2/unipixel-2.2.0-rc.18.bin",
+  "publishedAt": "2026-08-08T02:54:59Z",
+  "releaseNotes": "V2.15 Cross cache-safe RMT OTA and boot stability fix",
+  "signature": "MEUCIGUG2OEtY6exjaJ9neqM2m4B1O48JDWOYb6XlSq6JX33AiEAigDn12NbYXIfFqSDrWMgrQyv2W/sOjjqIIilpOtK0zo="
 }
