@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "2.2.0-rc.20",
+  "version": "2.2.0-rc.22",
   "boardId": "uicpal-esp32s3-n16r8",
   "configSchemaVersion": 9,
-  "size": 1593632,
-  "sha256": "1ec06da185a8d87c76f5aa38d8bd7daa274cad787896fc45d07fd1d3bf142047",
-  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.20.bin",
-  "publishedAt": "2026-08-08T03:25:09Z",
-  "releaseNotes": "V2.15 Cross final signed acceptance build",
-  "signature": "MEUCIG0WIB5xDls669i2eqMJwY5ecJbvBVbYEaXu2qEuM2yHAiEAqv4vb/y23kNg7hkYwlpG4eHoG7lYQgYrA3Fxb1doJ2w="
+  "size": 1593728,
+  "sha256": "ac72d7171c2920c57664f1394aab4ceb6a2350172b302bef40e3736fa1e0c5eb",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.22.bin",
+  "publishedAt": "2026-08-08T03:43:46Z",
+  "releaseNotes": "V2.15 Cross OTA maintenance-pause acceptance build",
+  "signature": "MEUCIQChwDdbpgxjsYZXuW93AVK3O6nOO4WTg47j4EObM4+H6wIgDFqzN2LnZoeAQ7tKd+yHs3q/BSVpBob7tABxwNU+7ww="
 }
