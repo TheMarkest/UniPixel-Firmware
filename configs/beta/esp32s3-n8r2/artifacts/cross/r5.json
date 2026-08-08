@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 9,
+  "customProfiles": [],
+  "hardware": {
+    "ports": [
+      {"id": "led0", "backend": "rmt_nrz", "dataPin": 6}
+    ],
+    "transportGroups": [
+      {"id": "rmt0", "backend": "rmt_nrz", "synchronization": "hardware", "requestedFps": 30}
+    ]
+  },
+  "outputs": [
+    {
+      "id": "bus0",
+      "enabled": true,
+      "protocol": "ws2812b",
+      "hardwarePortId": "led0",
+      "transportGroupId": "rmt0",
+      "requestedFps": 30,
+      "transport": {"type": "rmt_nrz", "dataPin": 6},
+      "pixelCount": 128
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "center-front",
+      "name": "Center / Front",
+      "enabled": true,
+      "pixelCount": 64,
+      "geometry": {
+        "type": "matrix",
+        "width": 8,
+        "height": 8,
+        "majorAxis": "row",
+        "serpentine": true,
+        "origin": "top-left",
+        "rotation": 0,
+        "mirrorX": false,
+        "mirrorY": false,
+        "reverse": false
+      },
+      "control": {"mode": "live", "artnet": {"portAddress": 0, "startChannel": 1, "colorOrder": "rgb"}},
+      "parts": [
+        {
+          "id": "main",
+          "busId": "bus0",
+          "physicalOffset": 0,
+          "pixelCount": 64,
+          "sampling": {"keep": 1, "period": 1, "phase": 0},
+          "placement": {"x": 0, "y": 0, "width": 8, "height": 8}
+        }
+      ]
+    },
+    {
+      "id": "center-back",
+      "name": "Center / Back",
+      "enabled": true,
+      "pixelCount": 64,
+      "geometry": {
+        "type": "matrix",
+        "width": 8,
+        "height": 8,
+        "majorAxis": "row",
+        "serpentine": true,
+        "origin": "top-left",
+        "rotation": 0,
+        "mirrorX": true,
+        "mirrorY": false,
+        "reverse": false
+      },
+      "control": {"mode": "live", "artnet": {"portAddress": 0, "startChannel": 193, "colorOrder": "rgb"}},
+      "parts": [
+        {
+          "id": "main",
+          "busId": "bus0",
+          "physicalOffset": 64,
+          "pixelCount": 64,
+          "sampling": {"keep": 1, "period": 1, "phase": 0},
+          "placement": {"x": 0, "y": 0, "width": 8, "height": 8}
+        }
+      ]
+    }
+  ],
+  "dmx": {
+    "inputEnabled": false,
+    "physicalUniverse": 1,
+    "inputTimeoutMs": 1000,
+    "output": {"mode": "disabled", "fallback": "blackout"}
+  },
+  "show": {"masterDimmer": 20, "blackout": false},
+  "fixtureGroups": [
+    {"id": "cross-all", "name": "Cross / Both Faces", "fixtureIds": ["center-front", "center-back"]},
+    {"id": "cross-front", "name": "Cross / Front", "fixtureIds": ["center-front"]},
+    {"id": "cross-back", "name": "Cross / Back", "fixtureIds": ["center-back"]}
+  ],
+  "scenes": [
+    {
+      "id": "cross-breathe",
+      "name": "Cube Breathe",
+      "fixtureGroupId": "cross-all",
+      "effect": "pulse",
+      "dimmer": 68,
+      "speed": 16,
+      "primaryColor": {"red": 0, "green": 24000, "blue": 65535},
+      "secondaryColor": {"red": 42000, "green": 0, "blue": 56000}
+    },
+    {
+      "id": "cross-front-radar",
+      "name": "Front Radar",
+      "fixtureGroupId": "cross-front",
+      "effect": "radar",
+      "dimmer": 72,
+      "speed": 30,
+      "primaryColor": {"red": 0, "green": 56000, "blue": 65535},
+      "secondaryColor": {"red": 0, "green": 2000, "blue": 10000}
+    },
+    {
+      "id": "cross-back-radar",
+      "name": "Back Radar",
+      "fixtureGroupId": "cross-back",
+      "effect": "radar",
+      "dimmer": 72,
+      "speed": 34,
+      "primaryColor": {"red": 52000, "green": 0, "blue": 65535},
+      "secondaryColor": {"red": 6000, "green": 0, "blue": 10000}
+    },
+    {
+      "id": "cross-spectrum",
+      "name": "Cube Spectrum",
+      "fixtureGroupId": "cross-all",
+      "effect": "rainbow",
+      "dimmer": 58,
+      "speed": 20,
+      "primaryColor": {"red": 65535, "green": 65535, "blue": 65535},
+      "secondaryColor": {"red": 0, "green": 0, "blue": 0}
+    },
+    {
+      "id": "cross-starlight",
+      "name": "Cube Starlight",
+      "fixtureGroupId": "cross-all",
+      "effect": "sparkle",
+      "dimmer": 62,
+      "speed": 24,
+      "primaryColor": {"red": 65535, "green": 65535, "blue": 65535},
+      "secondaryColor": {"red": 0, "green": 9000, "blue": 36000}
+    },
+    {
+      "id": "cross-heart",
+      "name": "Cube Heart",
+      "fixtureGroupId": "cross-all",
+      "effect": "pulse",
+      "dimmer": 70,
+      "speed": 28,
+      "primaryColor": {"red": 65535, "green": 4000, "blue": 22000},
+      "secondaryColor": {"red": 10000, "green": 0, "blue": 3000}
+    }
+  ],
+  "autopilot": {
+    "enabled": true,
+    "loop": true,
+    "startupDelayMs": 2000,
+    "fps": 30,
+    "steps": [
+      {"sceneId": "cross-breathe", "durationMs": 18000},
+      {"sceneId": "cross-front-radar", "durationMs": 10000},
+      {"sceneId": "cross-back-radar", "durationMs": 10000},
+      {"sceneId": "cross-spectrum", "durationMs": 18000},
+      {"sceneId": "cross-starlight", "durationMs": 16000},
+      {"sceneId": "cross-heart", "durationMs": 12000}
+    ]
+  }
+}

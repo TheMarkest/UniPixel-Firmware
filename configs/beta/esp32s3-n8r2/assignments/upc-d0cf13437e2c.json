@@ -3,12 +3,12 @@
   "channel": "beta",
   "deviceId": "upc-d0cf13437e2c",
   "configId": "cross",
-  "revision": 4,
+  "revision": 5,
   "boardId": "esp32s3-n8r2",
   "configSchemaVersion": 9,
-  "size": 9620,
-  "sha256": "889acb5476625b3be551228cb249ee1e7b312e8391e8c3121507afb722baf133",
-  "url": "https://themarkest.github.io/UniPixel-Firmware/configs/beta/esp32s3-n8r2/artifacts/cross/r4.json",
-  "publishedAt": "2026-08-08T02:12:39Z",
-  "signature": "MEUCIQCaNwJ4OfEGmcH9rj0CHrhAxNc77Rcu7uObyQ3tNlm1tgIgO+DNkJI8UDpumrN6CtjFVEulF6QfNckDIP4DMvxWDAM="
+  "size": 4970,
+  "sha256": "bae1e3316d572aa2878dea521bcdbb7de63ee4e859d1b34cb7c72bb63bd556c2",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/configs/beta/esp32s3-n8r2/artifacts/cross/r5.json",
+  "publishedAt": "2026-08-08T10:48:33Z",
+  "signature": "MEUCIQDUqlmdsC3OIA5Ri4iBDSNijO2EMfJkXxzXTG6LtGoFWgIgJOC2gyQTttuaXEYw6oaUBWSdLvgSWSaaXsnCnlnpcYg="
 }
