@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "2.2.0-rc.19",
+  "version": "2.2.0-rc.20",
   "boardId": "uicpal-esp32s3-n16r8",
   "configSchemaVersion": 9,
   "size": 1593632,
-  "sha256": "b67c6807aad4dff8aab1ee094065d3d6a846b8ff20f7499e13ea2816e729ac62",
-  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.19.bin",
-  "publishedAt": "2026-08-08T03:14:02Z",
-  "releaseNotes": "V2.15 Cross cache-safe RMT transport lifecycle fix",
-  "signature": "MEUCIHh3Kqczrifm1Uf9J5hQu15769i4IGoyPSx93ccyMhKgAiEA9+dcTFPNwW8JqQ0aPx22sZ7zK1E+Tqf4Z4HTJKk9tos="
+  "sha256": "1ec06da185a8d87c76f5aa38d8bd7daa274cad787896fc45d07fd1d3bf142047",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.20.bin",
+  "publishedAt": "2026-08-08T03:25:09Z",
+  "releaseNotes": "V2.15 Cross final signed acceptance build",
+  "signature": "MEUCIG0WIB5xDls669i2eqMJwY5ecJbvBVbYEaXu2qEuM2yHAiEAqv4vb/y23kNg7hkYwlpG4eHoG7lYQgYrA3Fxb1doJ2w="
 }
