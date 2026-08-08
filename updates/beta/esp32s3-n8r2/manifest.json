@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "2.2.0-rc.14",
+  "version": "2.2.0-rc.15",
   "boardId": "esp32s3-n8r2",
   "configSchemaVersion": 9,
-  "size": 1584560,
-  "sha256": "45b30ca5be9ed98cadc8e189e21e966283796eb45ab1763d530b0b6f92f1a37f",
-  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/esp32s3-n8r2/unipixel-2.2.0-rc.14.bin",
-  "publishedAt": "2026-08-08T00:37:11Z",
-  "releaseNotes": "Direct on-device Telegram bot control",
-  "signature": "MEQCICnf7jrGifoEWziXffHS/q535kbJID1hidL8LSIjcbflAiBlt+KKrWT1B+FfQ5PFX2v7qJJOJ42qDqusjNBQd+SPbg=="
+  "size": 1590096,
+  "sha256": "cb72b8adf75ad88c0a4994565d902aa6c6c4758918e1f301fbe63adc03c98f85",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/esp32s3-n8r2/unipixel-2.2.0-rc.15.bin",
+  "publishedAt": "2026-08-08T01:48:14Z",
+  "releaseNotes": "V2.15 Cross mapping, autonomous show, Art-Net bot switching, and bounded preview/config persistence",
+  "signature": "MEUCIG6SG5G3iOuIsz1GGVwCHSB1bMiHv4qYg02TiJVY3Q+XAiEAkfleHaA29bbJy+QRKOu3S7DSi7Zsr7SmysoegwMmTMA="
 }
