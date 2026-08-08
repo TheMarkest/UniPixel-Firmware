@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "publishedAt": "2026-08-08T00:49:04Z",
+  "publishedAt": "2026-08-08T01:50:09Z",
   "configCount": 1,
   "assignmentCount": 1,
   "configs": [
     {
       "id": "cross",
-      "revision": 2,
-      "sha256": "eee08cf2005092ad73c4e31bb8176652fe7468214c66cb857fd67eef15bdae88",
-      "url": "https://themarkest.github.io/UniPixel-Firmware/configs/beta/esp32s3-n8r2/artifacts/cross/r2.json"
+      "revision": 3,
+      "sha256": "44c4f35d1c7320a1c7449f15249435ad021cf9b6ebe9efe5d760400729e1f650",
+      "url": "https://themarkest.github.io/UniPixel-Firmware/configs/beta/esp32s3-n8r2/artifacts/cross/r3.json"
     }
   ]
 }
