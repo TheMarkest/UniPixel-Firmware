@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "2.2.0-rc.9",
+  "version": "2.2.0-rc.14",
   "boardId": "uicpal-esp32s3-n16r8",
-  "configSchemaVersion": 8,
-  "size": 1533600,
-  "sha256": "fa8afcac2f23006a6e58730fded6ed67d9f0058f51049f66c9e12887505445f8",
-  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.9.bin",
-  "publishedAt": "2026-07-27T06:16:00Z",
-  "releaseNotes": "Add exact WS2815 GRB and RGB-order profiles after two-line hardware diagnosis",
-  "signature": "MEUCIB5cTkXmYl6Pk2z1eaYCWbZ4BXkic79IhGmXbAT84FC3AiEAyX7OsPObIBNAGnpZgupl/9UqX+cAubp+Iup4ihyr0+0="
+  "configSchemaVersion": 9,
+  "size": 1588224,
+  "sha256": "44d21774327e01d920e34d98e913c1c9232820979e587de197faf685f3d11eb7",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/unipixel-2.2.0-rc.14.bin",
+  "publishedAt": "2026-08-08T00:37:11Z",
+  "releaseNotes": "Direct on-device Telegram bot control",
+  "signature": "MEQCIGKMqUWuSnLCZllkIkpA+lwL5b2lsAkAnMdRpWOsVB2oAiB8Xtvy1UbV2fd+mQV2g1cnG3iOQrTBSKLcJsTewhx39w=="
 }

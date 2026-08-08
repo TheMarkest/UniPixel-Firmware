@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "channel": "beta",
+  "version": "2.2.0-rc.14",
+  "boardId": "esp32s3-n8r2",
+  "configSchemaVersion": 9,
+  "size": 1584560,
+  "sha256": "45b30ca5be9ed98cadc8e189e21e966283796eb45ab1763d530b0b6f92f1a37f",
+  "url": "https://themarkest.github.io/UniPixel-Firmware/updates/beta/esp32s3-n8r2/unipixel-2.2.0-rc.14.bin",
+  "publishedAt": "2026-08-08T00:37:11Z",
+  "releaseNotes": "Direct on-device Telegram bot control",
+  "signature": "MEQCICnf7jrGifoEWziXffHS/q535kbJID1hidL8LSIjcbflAiBlt+KKrWT1B+FfQ5PFX2v7qJJOJ42qDqusjNBQd+SPbg=="
+}
