@@ -14,7 +14,7 @@
         "id": "rmt0",
         "backend": "rmt_nrz",
         "synchronization": "hardware",
-        "requestedFps": 60
+        "requestedFps": 30
       }
     ]
   },
@@ -25,7 +25,7 @@
       "protocol": "ws2812b",
       "hardwarePortId": "led0",
       "transportGroupId": "rmt0",
-      "requestedFps": 60,
+      "requestedFps": 30,
       "transport": {
         "type": "rmt_nrz",
         "dataPin": 6
@@ -235,7 +235,7 @@
     "enabled": true,
     "loop": true,
     "startupDelayMs": 2000,
-    "fps": 60,
+    "fps": 30,
     "steps": [
       {"sceneId": "cross-breathe", "durationMs": 18000},
       {"sceneId": "cross-rise-lower", "durationMs": 6000},
